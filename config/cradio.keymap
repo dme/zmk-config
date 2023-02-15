@@ -54,13 +54,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-            &none      &none      &none      &none      &none          &kp LBRC   &kp 7      &kp 8      &kp 9      &kp RBRC
+            &none      &none      &none      &none      &none          &kp LBRC   &kp N7     &kp N8     &kp N9     &kp RBRC
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &kp LCTL   &kp LALT   &kp LSFT   &kp LGUI   &none          &kp SCLN   &kp 4      &kp 5      &kp 6      &kp EQL
+            &kp LCTL   &kp LALT   &kp LSFT   &kp LGUI   &none          &kp SEMI   &kp N4     &kp N5     &kp N6     &kp EQUAL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-            &kp BSLS   &none      &none      &none      &none          &kb GRV    &kp 1      &kp 2      &kp 3      &kp MINS
+            &kp BSLH   &none      &none      &none      &none          &kb GRAVE  &kp N1     &kp N2     &kp N3     &kp MINUS
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp F13        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -77,7 +77,7 @@
             &kp TAB    &none      &none      &none      &none          &none      &kp LGUI   &kp LSFT   &kp LALT   &kp LCTRL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &kp PEQL   &none      &none      &none      &none          &none      &none      &none      &none      &none
+            &none      &none      &none      &none      &none          &none      &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp F13        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
