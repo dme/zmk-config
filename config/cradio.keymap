@@ -23,6 +23,52 @@
         };
     };
 
+    combos {
+    	   compatible = "zmk,combos";
+	   
+ 	   combo_coln {
+	       key-positions = <20 21>;
+	       bindings = <&kp COLON>;
+	   };
+ 	   combo_mins {
+	       key-positions = <22 23>;
+	       bindings = <&kp MINUS>;
+	   };
+ 	   combo_uscr {
+	       key-positions = <26 27>;
+	       bindings = <&kp UNDERSCORE>;
+	   };
+ 	   combo_scln {
+	       key-positions = <28 29>;
+	       bindings = <&kp MINUS>;
+	   };
+	   
+ 	   combo_lbcr {
+	       key-positions = <2 12>;
+	       bindings = <&kp LCBR>;
+	   };
+ 	   combo_lprn {
+	       key-positions = <3 13>;
+	       bindings = <&kp LPRN>;
+	   };
+ 	   combo_lbrc {
+	       key-positions = <4 14>;
+	       bindings = <&kp LBRC>;
+	   };
+ 	   combo_rbrc {
+	       key-positions = <6 16>;
+	       bindings = <&kp RBRC>;
+	   };
+ 	   combo_rprn {
+	       key-positions = <7 17>;
+	       bindings = <&kp RPRN>;
+	   };
+ 	   combo_rbcr {
+	       key-positions = <8 18>;
+	       bindings = <&kp RBCR>;
+	   };
+    };
+
     // conditional_layers {
     //     compatible = "zmk,conditional-layers";
     //     tri_layer {
