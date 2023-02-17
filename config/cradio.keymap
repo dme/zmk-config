@@ -43,29 +43,29 @@
 	       bindings = <&kp MINUS>;
 	   };
 	   
- 	   combo_lbcr {
+ 	   combo_lbrc {
 	       key-positions = <2 12>;
-	       bindings = <&kp LCBR>;
+	       bindings = <&kp LBRC>;
 	   };
- 	   combo_lprn {
+ 	   combo_lpar{
 	       key-positions = <3 13>;
 	       bindings = <&kp LPRN>;
 	   };
- 	   combo_lbrc {
+ 	   combo_lbkt {
 	       key-positions = <4 14>;
-	       bindings = <&kp LBRC>;
+	       bindings = <&kp LBKT>;
 	   };
- 	   combo_rbrc {
+ 	   combo_rbkt {
 	       key-positions = <6 16>;
-	       bindings = <&kp RBRC>;
+	       bindings = <&kp RBKT>;
 	   };
- 	   combo_rprn {
+ 	   combo_rpar {
 	       key-positions = <7 17>;
 	       bindings = <&kp RPRN>;
 	   };
- 	   combo_rbcr {
+ 	   combo_rbrc {
 	       key-positions = <8 18>;
-	       bindings = <&kp RBCR>;
+	       bindings = <&kp RBRC>;
 	   };
     };
 
