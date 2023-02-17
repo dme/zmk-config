@@ -56,15 +56,15 @@
 	       bindings = <&kp LBKT>;
 	   };
  	   combo_rbkt {
-	       key-positions = <6 16>;
+	       key-positions = <5 15>;
 	       bindings = <&kp RBKT>;
 	   };
  	   combo_rpar {
-	       key-positions = <7 17>;
+	       key-positions = <6 16>;
 	       bindings = <&kp RPRN>;
 	   };
  	   combo_rbrc {
-	       key-positions = <8 18>;
+	       key-positions = <7 17>;
 	       bindings = <&kp RBRC>;
 	   };
     };
